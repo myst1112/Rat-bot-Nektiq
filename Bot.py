@@ -2,7 +2,10 @@
 
 # bot_server.py
 
+import os
+from dotenv import load_dotenv
 import logging
+
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import (
     Updater, CommandHandler, CallbackQueryHandler,
